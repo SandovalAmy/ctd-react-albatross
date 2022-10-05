@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6d6dfbdb9a3b332ea7a2",
+    "revision": "d96ba5a57bf5b77d34db",
     "url": "/ctd-react-albatross/static/css/main.9e4c4534.chunk.css"
   },
   {
-    "revision": "6d6dfbdb9a3b332ea7a2",
-    "url": "/ctd-react-albatross/static/js/main.84a1ea3d.chunk.js"
+    "revision": "d96ba5a57bf5b77d34db",
+    "url": "/ctd-react-albatross/static/js/main.02f58219.chunk.js"
   },
   {
     "revision": "c49c635e0339a9123318",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ctd-react-albatross/static/media/renato-ramos-puma-lKdLVkZJdPM-unsplash.c7d08243.jpg"
   },
   {
-    "revision": "6e0c92a1618bb511fa11c6a4d40018f2",
+    "revision": "683799babecc82cb85149e6c76282366",
     "url": "/ctd-react-albatross/index.html"
   }
 ];
