@@ -2,7 +2,7 @@
   "homepage": "https://sandovalamy.github.io/ctd-react-albatross/",
   "name": "ctd-react-albatross",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
