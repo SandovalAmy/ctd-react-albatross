@@ -87,11 +87,11 @@ const App = () => {
   };
 
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route
           exact
-          path={process.env.PUBLIC_URL + "/"}
+          path="/"
           element={
             <>
               <Navbar />
@@ -102,7 +102,7 @@ const App = () => {
           }
         />
         <Route
-          path={process.env.PUBLIC_URL + "/todolist"}
+          path="/todolist"
           element={
             <>
               <Navbar />
