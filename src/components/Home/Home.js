@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Home.module.css";
 import { FaReact } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
           .
           <br />
           <br />
-          To see my Todo app, click <a href="/todolist">here</a>.
+          To see my Todo app, click <Link to="/todolist">here</Link>.
         </p>
       </div>
     </>

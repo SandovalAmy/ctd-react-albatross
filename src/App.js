@@ -5,7 +5,7 @@ import TodoList from "./components/TodoList/TodoList";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import AddTodoForm from "./components/AddTodoForm/AddTodoForm";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 
 const App = () => {
@@ -87,7 +87,7 @@ const App = () => {
   };
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route
           exact
@@ -121,7 +121,7 @@ const App = () => {
           }
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

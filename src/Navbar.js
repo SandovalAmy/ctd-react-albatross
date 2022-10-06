@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import { FaHome } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
       </a>
       <ul>
         <li>
-          <a href="/todolist">Todo List</a>
+          <Link to="/todolist">Todo List</Link>
         </li>
       </ul>
     </nav>
