@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ctd-react-albatross/static/media/renato-ramos-puma-lKdLVkZJdPM-unsplash.c7d08243.jpg"
   },
   {
-    "revision": "2adfdc7ff89de22505f12d0f8270d1ae",
+    "revision": "8b233408a5c42e336dbf2d719f4c1e0b",
     "url": "/ctd-react-albatross/index.html"
   }
 ];
