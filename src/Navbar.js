@@ -6,10 +6,13 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="nav">
-      <Link to="/" className="site-name">
+      <a href="https://www.amyjensandoval.com/" className="site-name">
         <FaHome />
-      </Link>
+      </a>
       <ul>
+        <li>
+          <Link to="/">About</Link>
+        </li>
         <li>
           <Link to="/todolist">Todo List</Link>
         </li>
